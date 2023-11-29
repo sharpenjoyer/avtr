@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* { margin: 0; padding: 0; }
+
+ul, li, .header_media_list{
+	list-style-type: none;
+	display: flex;
+}
+
+@font-face{
+	font-family: "Corporate-A-Bold";
+	font-style: normal; /* косой-кривой*/
+	font-weight: 700;
+	src: url('../fonts/corporate_a_bold.woff2') format('woff2'), 
+		 url('../fonts/corporate_a_bold.ttf');
+
+}
+body{
+	line-height: 120%; /* межстрочный интервал */
+	font-family: 'Roboto Condensed', sans-serif; /* шрифт по умолчанию */
+	font-size: 16px; /* размер шрифта по умолчанию */
+	background-color: #070A1B; /* крутой цвет заднего фона по умолчанию */
+	background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+.header_mercedes-benz{
+	margin-left: auto;
+	margin-right: auto;
+}
+.header_top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+.header-nav{
+	border: none;
+    display: inline-block;
+    background-color: #070A1B;
+}
+
+.list_item{
+	margin-left: 30px;
+}
+.list_item:first-child{
+	margin-left: 0;
+}
+
+/* главная страница */
+h1, p, a{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: normal;
+font-weight: 400;
+line-height: 120%;
+	color: white;
+	text-decoration: none;
+}
+.FirstPageContent{
+	padding-top: -10px;
+	background-image: url(../img/FirstPageWallpaper.png);
+	min-height: calc(100vh - 100px);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+.title{
+	font-family: 'Corporate-A-Bold';
+	margin-bottom: 25px;
+	font-size: 72px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title-descr{
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 24px;
+	margin-bottom: 0vh;
+}
+.title-icon{
+	margin-bottom: 13pxpx;
+}
+/* Second page*/
+.SecondPageContainer{
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+.secondPageComponents{
+	width: 900px;
+	height: 659px;
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+}
+.SecondPageTitle{
+	font-size: 18px;
+	margin-bottom: 25px;
+	color: #F402A2;
+}
+.SecondPageDescr{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 25px;
+}
+/* 3rd page */
+.ColumnParent{
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-bottom: 150px;
+}
+
+.column{
+	max-width: 570px;
+}
+.firstbutton{
+
+	font-family: Corporate A ;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	color: #F402A2;
+	border: 1px solid #F402A2;
+	background-color: transparent;
+	margin-top: 40px;
+	width: 100%;
+	height: 50px;
+}
+/* 4rd page*/
+.fourdPage{
+	height: 700px;
+}
+.titleFour{
+	font-family: 'Roboto Condensed';
+	font-size: 16px;
+}
+.fourdParent{
+	display: flex;
+  	justify-content: space-between;
+  	
+}
+.fourdPage_columnFirst{
+	max-width: 255px;
+}
+.fourdPage_columnSecond{
+	max-width: 900px;
+	right: 0px;
+}
+.huy{
+
+	max-width: 900px;
+	max-height: 450px;
+}
+.fourdPage_columnSecond_parent{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.fourdPage_columnSecond_parent_right{
+	max-width: 255px;
+	max-width: 250px;
+}
+/* video page*/
+.video_page{
+	margin-top: 250px;
+}
+.video_btn{
+	font-family: Corporate A ;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	color: #F402A2;
+	border: 1px solid #F402A2;
+	background-color: transparent;
+	margin-top: 25px;
+	height: 50px;
+	width: 100%;
+}
+/* fiveth page*/
+.finallyimg{
+	width: 100%;
+}
+.fiveth_page{
+	margin-top: 150px;
+	background-image: url(../img/end.png);
+	min-height: calc(100vh - 300px);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* footer */
+.footer{
+	background-color: #070A1B;
+
+}
+.footer_inner{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 300px;
+
+}
